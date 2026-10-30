@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#eef3fd">
+<meta name="description" content="내 주변 병원·약국·응급실 찾기와 건강 정보">
+<title>건강인 - 병원·약국·응급실 찾기</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><button id="btnBack" class="back" hidden aria-label="뒤로">‹</button><h1 id="title">병원·약국</h1><button id="btnSet" class="gear" aria-label="설정">⚙</button></header>
+<main id="view"></main>
+<nav class="tabs" id="tabs">
+  <button data-tab="hospital" class="on"><i>🏥</i>병원·약국</button>
+  <button data-tab="er"><i>🚑</i>응급실</button>
+  <button data-tab="tools"><i>💊</i>약·건강</button>
+  <button data-tab="my"><i>⭐</i>즐겨찾기</button>
+  <button class="ins"><i>🛡️</i>내보험찾기</button>
+</nav>
+<div id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>

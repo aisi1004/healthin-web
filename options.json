@@ -1,0 +1,49 @@
+{
+  "_help": "tab: show(false=숨김) / label / icon / url(https, market://, tel:, mailto:) / open('system'=기기 브라우저·스토어 기본, 'inapp'=앱 안 브라우저) / link('app:tab/hospital|er|disease|my|settings' = 앱 안 이동, url 보다 우선) / footnote(설정 화면 아래 작은 안내문) / notice(있으면 탭을 누를 때 안내 창을 먼저 보여줌): title, lead, lines[], footer, confirm / moonlight(병원 탭 위 달빛어린이병원 카드): show, title, desc, btn, url, open / links(약·건강 탭 '더 알아보기' 외부 링크 목록): [{title, desc, url, open}]",
+  "tab": {
+    "show": true,
+    "label": "내보험찾기",
+    "icon": "🛡️",
+    "url": "https://m.insvalley.com/mini/theme/easy_find/company/l/main.jsp?landing_type=A&ac=FIV_B_PS_prisun",
+    "open": "inapp",
+    "footnote": "‘내보험찾기’는 보험대리점 ㈜인스밸리(대리점등록번호 2001048405)가 제공하는 외부 서비스로 연결됩니다. 보험계약을 체결하기 전에 상품설명서 및 약관을 반드시 읽어보시기 바랍니다. 자세한 안내는 연결된 서비스 화면에서 확인해 주세요."
+  },
+  "moonlight": {
+    "show": true,
+    "title": "달빛어린이병원",
+    "desc": "밤이나 주말에 아이가 아플 때 가는 소아 진료기관이에요. 지역별 공식 목록은 중앙응급의료센터(E-GEN)에서 확인하세요.",
+    "btn": "공식 목록 보기",
+    "url": "https://www.e-gen.or.kr/moonlight/main.do",
+    "open": "inapp"
+  },
+  "links": [
+    {
+      "title": "국가암지식센터",
+      "desc": "국립암센터가 운영하는 암 정보·검진 안내",
+      "url": "https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/list.do",
+      "open": "inapp",
+      "icon": "🎗️"
+    },
+    {
+      "title": "국가건강정보포털",
+      "desc": "질병관리청의 건강·질병 정보",
+      "url": "https://health.kdca.go.kr",
+      "open": "inapp",
+      "icon": "🏛️"
+    },
+    {
+      "title": "위키백과",
+      "desc": "질병 목록으로 찾아보는 백과사전(참고용)",
+      "url": "https://ko.wikipedia.org/wiki/%EC%A7%88%EB%B3%91_%EB%AA%A9%EB%A1%9D",
+      "open": "inapp",
+      "icon": "📖"
+    },
+    {
+      "icon": "👶",
+      "title": "영유아 건강검진 안내",
+      "desc": "국민건강보험공단의 영유아 검진 안내",
+      "url": "https://www.nhis.or.kr/nhis/healthin/wbhaca04800m01.do",
+      "open": "inapp"
+    }
+  ]
+}
